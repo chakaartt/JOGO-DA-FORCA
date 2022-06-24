@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>jogo da forca</title>
+  </head>
+    <body>
+        <header id="cabeca">
+          <img src="imagem/logo.png" alt="logo da alura" class="letra-a">
+        </header>
+          <main id="corpo">            
+              <!-- Desktop-2 -->
+              <section>                
+                  <textarea cols="28" rows="1" name="palavra" placeholder="Digite uma palavra ou frase" 
+                  class="palavra"></textarea>
+                  <p class="palavra-incorreta"></p>
+              </section>
+              <section class="botao-palavra">
+                  <img src="imagem/icone.png" class="simbolo">
+                  <p class="dica">Máx. 8 letras.</p> 
+                  <button class="bt-salvar">Salvar e começar</button>
+                  <button class="bt-cancelar">Cancelar</button>               
+              </section>         
+          </main>
+  <script src="adiciona_palavras.js"></script>
+</body>
+</html>
